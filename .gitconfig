@@ -1,0 +1,12 @@
+[user]
+        name = BrittleFoot
+        email = i_o@rtural.ru
+[alias]
+        co = checkout
+        ci = commit
+        st = status
+        br = branch
+        hist = log --pretty=format:'%h %ad | %s%Cgreen%gd%Cblue%d %Cgreen[%an]' --graph --date=short
+        please = push --force-with-lease
+[core]
+        editor = vim

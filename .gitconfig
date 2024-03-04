@@ -1,6 +1,6 @@
 [user]
         name = BrittleFoot
-        email = i_o@rtural.ru
+        email = buftioo@gmail.com
 [alias]
         co = checkout
         ci = commit
@@ -10,3 +10,5 @@
         please = push --force-with-lease
 [core]
         editor = vim
+[pull]
+        rebase = true

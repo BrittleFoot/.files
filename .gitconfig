@@ -8,7 +8,8 @@
         br = branch
         hist = log --pretty=format:'%h %ad | %s%Cgreen%gd%Cblue%d %Cgreen[%an]' --graph --date=short
         please = push --force-with-lease
+        fixup = commit --amend --no-edit
 [core]
-        editor = vim
+        editor = code
 [pull]
         rebase = true
